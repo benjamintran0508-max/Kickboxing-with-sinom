@@ -52,8 +52,19 @@ h1 { font-family: 'Bebas Neue', Impact, sans-serif; font-size: 42px; letter-spac
 
 h2 { font-size: 12px; font-weight: 600; letter-spacing: 1.4px; text-transform: uppercase; color: var(--muted); margin: 36px 0 14px; }
 
+.action { background: var(--blue-light); border-radius: 10px; padding: 24px 24px 26px; margin-top: 32px; text-align: center; }
+.action h3 { font-family: 'Bebas Neue', Impact, sans-serif; font-size: 26px; letter-spacing: 1px; line-height: 1.15; }
+.action p { font-size: 15px; color: var(--dark-navy); margin: 8px auto 20px; max-width: 42ch; }
+.action a {
+  display: inline-block; background: var(--blue); color: #fff;
+  font-weight: 600; font-size: 14px; letter-spacing: 0.6px;
+  padding: 15px 34px; border-radius: 6px; text-decoration: none;
+}
+.action a:hover { background: #1876c8; }
+.action .time { display: block; font-size: 13px; color: var(--muted); margin-top: 12px; }
+
 ol { list-style: none; counter-reset: step; }
-ol li { counter-increment: step; position: relative; padding-left: 40px; margin-bottom: 16px; font-size: 15px; }
+ol li { counter-increment: step; position: relative; padding-left: 40px; margin-bottom: 18px; font-size: 15px; }
 ol li::before {
   content: counter(step);
   position: absolute; left: 0; top: 1px;
@@ -72,18 +83,18 @@ ol li::before {
 .contact a { color: var(--blue); text-decoration: none; font-weight: 500; }
 .contact a:hover { text-decoration: underline; }
 
-.back { text-align: center; margin-top: 32px; }
-.back a {
-  display: inline-block; background: var(--blue); color: #fff;
-  font-weight: 600; font-size: 13px; letter-spacing: 1px;
-  padding: 14px 32px; border-radius: 6px; text-decoration: none;
-}
+.back { text-align: center; margin-top: 28px; font-size: 14px; }
+.back a { color: var(--muted); text-decoration: none; }
+.back a:hover { color: var(--blue); text-decoration: underline; }
+
 footer { text-align: center; color: var(--muted); font-size: 13px; padding: 0 24px 32px; }
 
 @media (max-width: 560px) {
   .wrap { padding: 40px 18px 56px; }
   .card { padding: 32px 22px; }
   h1 { font-size: 34px; }
+  .action { padding: 22px 18px 24px; }
+  .action a { display: block; padding: 15px 20px; }
 }
 </style>
 </head>
@@ -104,13 +115,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
     <h1>You're booked in</h1>
-    <p class="lead">Simon will be in touch within 24 hours to confirm your time and where to meet.</p>
+    <p class="lead">Your session is booked. There is one short form to complete before you train.</p>
+
+    <div class="action">
+      <h3>One thing left to do</h3>
+      <p>Please complete the quick 5-min online Pre-Exercise Screening and Waiver form so Simon can make sure your session is safe and enjoyable for you.</p>
+      <a href="https://form.typeform.com/to/sHrQodh6" target="_blank" rel="noopener">Click Here to Complete</a>
+    </div>
 
     <h2>What happens next</h2>
     <ol>
-      <li>Simon will text or call you to confirm the session.</li>
-      <li>He will let you know where to meet, whether that is the Lidcombe gym or somewhere closer to you.</li>
-      <li>Turn up in anything you can move in. All pads and gloves are provided.</li>
+      <li>Simon will text or call you within 24 hours to confirm the session and location.</li>
+      <li>Turn up in anything you can move in, and bring a bottle of water and a towel. All pads and gloves are provided.</li>
     </ol>
 
     <div class="note">
