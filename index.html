@@ -851,18 +851,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <li><a href="#about">About</a></li>
     <li><a href="#contact">Contact</a></li>
   </ul>
-  <a class="nav-phone" href="tel:0408785125" aria-label="Call Simon on 0408 785 125">
+  <a id="phone-nav" class="nav-phone" href="tel:0408785125" aria-label="Call Simon on 0408 785 125">
     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="16" height="16"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
     <span>0408 785 125</span>
   </a>
-  <a class="nav-cta" href="https://calendly.com/simonsayskick/freetrial" target="_blank">Book Now</a>
+  <a id="book-nav" class="nav-cta" href="https://calendly.com/simonsayskick/freetrial" target="_blank">Book Now</a>
   <div class="nav-phone-mobile">
     <button class="nav-phone-trigger" onclick="togglePhoneMenu(event)" aria-haspopup="true" aria-expanded="false" aria-label="Call or text Simon">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="15" height="15"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
       <span>0408 785 125</span>
     </button>
     <div class="phone-menu" id="phoneMenu">
-      <a href="tel:0408785125">
+      <a id="phone-mobile" href="tel:0408785125">
         <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="20" height="20"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
         <span class="pm-label">Call<small>0408 785 125</small></span>
       </a>
@@ -882,7 +882,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <a href="#services" onclick="document.getElementById('mobileMenu').classList.remove('open')">Services</a>
   <a href="#about" onclick="document.getElementById('mobileMenu').classList.remove('open')">About</a>
   <a href="#contact" onclick="document.getElementById('mobileMenu').classList.remove('open')">Contact</a>
-  <a class="mob-book" href="https://calendly.com/simonsayskick/freetrial" target="_blank">Book Now</a>
+  <a id="book-mobile" class="mob-book" href="https://calendly.com/simonsayskick/freetrial" target="_blank">Book Now</a>
 </div>
 
 <!-- HERO -->
@@ -911,7 +911,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     
     <div class="hero-buttons hero-anim-btns">
-      <a class="btn-primary" href="https://calendly.com/simonsayskick/freetrial" target="_blank">Book a Free Trial</a>
+      <a id="book-hero" class="btn-primary" href="https://calendly.com/simonsayskick/freetrial" target="_blank">Book a Free Trial</a>
       <a class="btn-outline" href="#services" style="background:#fff; border-color:#fff; color:var(--dark-navy);">See Services</a>
     </div>
   </div>
@@ -1218,7 +1218,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <span class="ctag">All fitness levels</span>
         <span class="ctag">Equipment provided</span>
       </div>
-      <a class="btn-primary" href="https://calendly.com/simonsayskick/freetrial" target="_blank" style="margin-top:32px; display:inline-block;">Book a Free Trial</a>
+      <a id="book-first-session" class="btn-primary" href="https://calendly.com/simonsayskick/freetrial" target="_blank" style="margin-top:32px; display:inline-block;">Book a Free Trial</a>
     </div>
     <div class="combined-cta-right reveal reveal-delay-1">
       <div class="cta-who-card">
@@ -1457,7 +1457,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="booking-card reveal">
       <div class="booking-title">Ready to start?</div>
       <div class="booking-desc">No account needed. No payment online. Just pick a time on Calendly and show up ready to try something new.</div>
-      <a class="btn-book" href="https://calendly.com/simonsayskick/freetrial" target="_blank">Book Now — Calendly</a>
+      <a id="book-footer" class="btn-book" href="https://calendly.com/simonsayskick/freetrial" target="_blank">Book Now — Calendly</a>
     </div>
   </div>
 </section>
@@ -1475,7 +1475,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="footer-copy">© 2025 Kickboxing with Simon. All rights reserved.</div>
   </div>
   <div style="font-size:12px;color:var(--muted);border-top:1px solid var(--border);padding-top:12px;width:100%;">
-    Kickboxing with Simon &nbsp;|&nbsp; Mobile Personal Trainer &nbsp;|&nbsp; Lidcombe, Sydney NSW &nbsp;|&nbsp; <a href="tel:0408785125" style="color:var(--muted);text-decoration:none;">0408 785 125</a>
+    Kickboxing with Simon &nbsp;|&nbsp; Mobile Personal Trainer &nbsp;|&nbsp; Lidcombe, Sydney NSW &nbsp;|&nbsp; <a id="phone-footer" href="tel:0408785125" style="color:var(--muted);text-decoration:none;">0408 785 125</a>
   </div>
 </footer>
 
